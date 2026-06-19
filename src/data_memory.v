@@ -8,7 +8,7 @@ module data_memory (
 
 reg [7:0] memory [0:15];     // 16 x 8-bit memory
 
-// Initialize memory (optional)
+// Initialize memory
 integer i;
 initial begin
     for (i = 0; i < 16; i = i + 1)
